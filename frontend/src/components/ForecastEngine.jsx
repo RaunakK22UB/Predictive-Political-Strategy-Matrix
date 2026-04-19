@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://predictive-political-strategy-matrix.onrender.com/api';
 
 const factorLabels = {
   incumbency: 'Incumbency Effect',
